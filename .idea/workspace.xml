@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caa5fcf5-e5bb-41ec-beaf-531820ed5bd1" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="caa5fcf5-e5bb-41ec-beaf-531820ed5bd1" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -126,7 +124,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532057989302</updated>
-      <workItem from="1532057990721" duration="13934000" />
+      <workItem from="1532057990721" duration="13977000" />
     </task>
     <task id="LOCAL-00001" summary="Added footer">
       <created>1532127984092</created>
@@ -139,7 +137,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13934000" />
+    <option name="totallyTimeSpent" value="13977000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1370" height="751" extended-state="0" />
