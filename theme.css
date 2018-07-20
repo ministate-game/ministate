@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica');
+
+* {
+    /* So 100% means 100% */
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'IM Fell Double Pica', serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    overflow: auto;
+    position: relative;
+    width: 100%;
+}
+
+.content:before {
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    display: block;
+    background:
+            linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('/ministate-background.png');
+    background-size: cover;
+    width: 100%;
+    height: 110%;
+    top: -5%;
+
+}
+
+header {
+    text-align: center;
+    width: fit-content;
+}
+
+.header-top {
+    display: inline-block;
+    height: fit-content;
+	min-height: 4em;
+	border: none;
+    background: url("/bar.png");
+    background-size: cover;
+    padding-left: 6em;
+    padding-right: 6em;
+    box-shadow: 0 0 10px #111;
+    position: relative;
+}
+
+h1 {
+    font-size: 48;
+    position: relative;
+    top: 4%;
+}
+
+.panel {
+    width: 70%;
+    display: block;
+    margin: 2em auto 0;
+    padding: 2em;
+    background-color: #ECE3B5;
+    border: 5px solid #ECE3B5;
+    box-shadow: inset 0 0 0 2px #AD9C86, 0 0 10px #111;
+}
+
+image {
+    object-fit: contain;
+}
+
+.leftimage {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.rightimage {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+}

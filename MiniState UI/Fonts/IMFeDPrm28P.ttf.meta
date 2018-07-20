@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 247a6042c83b917419addb1409e46f0b
+timeCreated: 1525471481
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: IM FELL Double Pica
+  fontNames:
+  - IM FELL Double Pica
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 07350676e69a3f04f95a27c45995b038, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
