@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caa5fcf5-e5bb-41ec-beaf-531820ed5bd1" name="Default" comment="" />
+    <list default="true" id="caa5fcf5-e5bb-41ec-beaf-531820ed5bd1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/theme.css" afterPath="$PROJECT_DIR$/theme.css" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="theme.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="77" column="12" lean-forward="false" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+            <state relative-caret-position="210">
+              <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1532057989302</updated>
-      <workItem from="1532057990721" duration="13977000" />
+      <workItem from="1532057990721" duration="16887000" />
     </task>
     <task id="LOCAL-00001" summary="Added footer">
       <created>1532127984092</created>
@@ -137,11 +139,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13977000" />
+    <option name="totallyTimeSpent" value="16887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="26" width="1370" height="751" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15613383" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -188,8 +189,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="77" column="12" lean-forward="false" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+        <state relative-caret-position="210">
+          <caret line="95" column="0" lean-forward="false" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding />
         </state>
       </provider>
