@@ -12,8 +12,8 @@ html, body {
 body {
 	font-family: 'IM Fell Double Pica', serif;
     width: 100%;
+    padding: 0 5%;
     margin: 0;
-    padding: 0;
     display: flex;
     flex-direction: column;
     overflow: auto;
@@ -30,7 +30,6 @@ body {
     left: 0;
     right: 0;
     z-index: -1;
-
     display: block;
     background:
             linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('ministate-background.png');
@@ -86,13 +85,22 @@ h1 {
 }
 
 .panel {
-    width: 70%;
     display: block;
     margin: 2em auto 0;
     padding: 2em;
     background-color: #ECE3B5;
     border: 5px solid #ECE3B5;
     box-shadow: 0 0 0 2.5px #F6F1DA inset, 0 0 0 5.5px #AD9C86 inset, 0 0 10px #111;
+}
+
+.sidebar {
+    width: 27%;
+    float: right;
+}
+
+.content-panel {
+    width: 70%;
+    float: left;
 }
 
 .shadowed {
@@ -112,3 +120,8 @@ h1 {
     bottom: -10px;
 }
 .footer-container {}
+
+iframe {
+    display:block;
+    width:100%;
+}
