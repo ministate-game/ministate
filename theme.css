@@ -33,7 +33,7 @@ body {
     right: 0;
     z-index: -1;
     display: block;
-    background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url('ministate-background.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(255, 255, 255, 0)), url('ministate-background.png');
     background-size: cover;
     width: 100%;
     height: 110%;
@@ -47,7 +47,7 @@ header {
     height: fit-content;
     display: block;
     justify-content: center;
-    margin: auto;
+    margin: 1em auto;
 }
 
 .header-container {
