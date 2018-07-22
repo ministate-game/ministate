@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica');
+@import url('BlackPearl/stylesheet.css');
 
 * {
     /* So 100% means 100% */
@@ -84,6 +85,7 @@ h1 {
     font-size: 48px;
     position: relative;
     top: 4%;
+    font-family: "BlackPearl", "IM Fell Double Pica", serif;
 }
 
 h2 {
@@ -148,6 +150,7 @@ a.button {
     text-decoration: none;
     cursor: default;
     min-width: 1.5in;
+    font-family: "BlackPearl", "IM Fell Double Pica", serif;
 }
 
 a.button:hover {

@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'BlackPearl';
+    src: url('BlackPearl.eot');
+    src: url('BlackPearl.eot?#iefix') format('embedded-opentype'),
+        url('BlackPearl.woff2') format('woff2'),
+        url('BlackPearl.woff') format('woff'),
+        url('BlackPearl.ttf') format('truetype'),
+        url('BlackPearl.svg#BlackPearl') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
