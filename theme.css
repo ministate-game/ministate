@@ -56,14 +56,12 @@ header {
     background: url("bar.png");
     background-size: cover;
     position: relative;
+    z-index: 3;
 }
 
 .header-top {
     display: inline-block;
 	min-height: 3em;
-    background: url("bar.png");
-    background-size: contain;
-    background-repeat: repeat-x;
     padding: 0 6em;
     box-shadow: 0 0 10px #111;
 }
@@ -95,6 +93,8 @@ h1 {
     background-color: #ECE3B5;
     border: 5px solid #ECE3B5;
     box-shadow: 0 0 0 2.5px #F6F1DA inset, 0 0 0 5.5px #AD9C86 inset, 0 0 10px #111;
+    z-index: -1;
+    width: 100%;
 }
 
 .sidebar {
