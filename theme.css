@@ -101,6 +101,7 @@ h2 {
     box-shadow: 0 0 0 2.5px #F6F1DA inset, 0 0 0 5.5px #AD9C86 inset, 0 0 10px #111;
     z-index: -1;
     width: 100%;
+    height: fit-content;
 }
 
 .sidebar {
@@ -163,9 +164,17 @@ a.button:hover {
 }
 
 .image-fullwidth {
-    width: 100%;
+    display: block;
 }
 
 .image-halfwidth {
-    width: 49%;
+    display: block;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
 }
