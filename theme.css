@@ -161,3 +161,11 @@ a.button:hover {
 .buttons-bar {
     text-align: center;
 }
+
+.image-fullwidth {
+    width: 100%;
+}
+
+.image-halfwidth {
+    width: 49%;
+}

@@ -1,0 +1,25 @@
+h1 {
+    font-size: 36px;
+}
+
+.scroll {
+    height: 110px;
+}
+
+.header-top {
+    padding: 0 4em;
+}
+
+.content-panel {
+    width: 100%;
+    float: none;
+}
+
+.sidebar {
+    width: 100%;
+    float: none;
+}
+
+a.button  {
+    margin: 8px;
+}
