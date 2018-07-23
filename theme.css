@@ -171,7 +171,7 @@ a.button:hover {
 }
 
 .img-row {
-
+    width: 100%;
 }
 
 .image-fullwidth {
@@ -192,4 +192,35 @@ a.button:hover {
 
 .float-right {
     float: right;
+}
+
+.padded-bottom {
+    padding: 0 0 1em 0;
+}
+
+.facebook-icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+a.social-button {
+    display: inline-block;
+    margin: 16px 8px 0 8px;
+    padding: 12px 12px;
+    min-width: 0;
+}
+
+.nounderline {
+    text-decoration: none;
+}
+
+.social-panel {
+    text-align: center;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.mobile-only {
+    display: none;
 }
