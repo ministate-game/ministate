@@ -132,6 +132,7 @@ h2 {
 }
 
 .footer-container {
+    margin: 1em 0;
 }
 
 iframe {
@@ -163,12 +164,26 @@ a.button:hover {
     text-align: center;
 }
 
+.image-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-row {
+
+}
+
 .image-fullwidth {
     display: block;
+    flex: 100%;
+    max-width: 100%;
 }
 
 .image-halfwidth {
     display: block;
+    flex: 50%;
+    max-width: 50%;
 }
 
 .float-left {

@@ -11,6 +11,21 @@
             gtag('config', 'UA-122836459-1');
         </script>
 
+        <script>
+            /**
+             * Function that tracks a click on an outbound link in Analytics.
+             * This function takes a valid URL string as an argument, and uses that URL string
+             * as the event label. Setting the transport method to 'beacon' lets the hit be sent
+             * using 'navigator.sendBeacon' in browser that support it.
+             */
+            var tol = function(url) {
+                ga('send', 'event', 'outbound', 'click', url, {
+                    'transport': 'beacon',
+                    'hitCallback': function(){document.location = url;}
+                });
+            }
+        </script>
+
         <title>MiniState</title>
 
         <link rel="stylesheet" type="text/css" href="theme.css">
@@ -44,9 +59,9 @@
             </div>
         </header>
         <div class="buttons-bar">
-            <a class="button" href="https://store.steampowered.com/app/842660/">Steam</a>
-            <a class="button" href="https://www.reddit.com/r/ministate">Forums</a>
-            <a class="button" href="https://ministate.wikia.com">Wiki</a>
+            <a class="button" href="https://store.steampowered.com/app/842660/" onclick="tol('https://store.steampowered.com/app/842660/');">Steam</a>
+            <a class="button" href="https://www.reddit.com/r/ministate" onclick="tol('https://www.reddit.com/r/ministate')">Forums</a>
+            <a class="button" href="https://ministate.wikia.com" onclick="tol('https://ministate.wikia.com')">Wiki</a>
         </div>
         <div class="content">
             <div class="container content-panel">
@@ -67,12 +82,23 @@
                 </div>
                 <div class="panel" id="screenshots">
                     <h2>Screenshots</h2>
-                    <img src="http://via.placeholder.com/700x300" class="image-fullwidth">
-                    <img src="http://via.placeholder.com/350x150" class="image-halfwidth float-left">
-                    <img src="http://via.placeholder.com/350x150" class="image-halfwidth float-right">
+                    <div class="image-container">
+                        <div class="img-row">
+                            <img src="http://via.placeholder.com/700x300" class="image-fullwidth">
+                        </div>
+                        <div class="img-row">
+                            <img src="http://via.placeholder.com/350x150" class="image-halfwidth float-left">
+                            <img src="http://via.placeholder.com/350x150" class="image-halfwidth float-right">
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="sidebar">
+                <div class="panel">
+                    <h2>Social</h2>
+                    Twitter
+                    Facebook
+                </div>
                 <div class="panel">
                     <h2>Discord Server</h2>
                     <p>Become an alpha tester by applying through Discord!</p>
@@ -80,17 +106,17 @@
                 </div>
                 <div class="panel">
                     <h2>MiniState on Indie DB</h2>
-                    <a href="https://www.indiedb.com/games/ministate" title="View MiniState on Indie DB" target="_blank"><img src="https://button.indiedb.com/popularity/medium/games/67602.png" alt="MiniState" /></a>
+                    <a href="https://www.indiedb.com/games/ministate" title="View MiniState on Indie DB" target="_blank" onclick="tol('https://www.indiedb.com/games/ministate')"><img src="https://button.indiedb.com/popularity/medium/games/67602.png" alt="MiniState" /></a>
                 </div>
                 <div class="panel">
                     <h2>Contact Us</h2>
-                    <p>Email: <a href="mailto:ministate@email.tld">ministate@email.tld</a></p>
+                    <p>Email: <a href="mailto:contact@ministate.net">contact@ministate.net</a></p>
                 </div>
             </div>
         </div>
        <footer class="footer">
             <div class="footer-container">
-                <p>Hello, world!</p>
+                Press Kit (coming soon!) | Copyright &copy; MiniState 2018 | Website released under MIT License | <a href="https://github.com/ministate-game/ministate" onclick="tol('https://github.com/ministate-game/ministate')">View on GitHub</a>
             </div>
         </footer>
     </body>
