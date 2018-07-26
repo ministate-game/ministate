@@ -7,7 +7,10 @@ h1 {
 }
 
 .header-top {
-    padding: 0 4em;
+    padding: 0 3em;
+}
+
+.header-container {
 }
 
 .content-panel {
@@ -24,10 +27,14 @@ a.button  {
     margin: 8px;
 }
 
-.social-panel {
+.button-panel {
     display: none;
 }
 
 .mobile-only {
     display: block;
+}
+
+.hide {
+    display: none;
 }

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <!-- Global Site Tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122836459-1"></script>
         <script>
@@ -29,14 +30,15 @@
         <title>MiniState</title>
 
         <link rel="stylesheet" type="text/css" href="theme.css">
-        <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css">
+        <link rel="stylesheet" type="text/css" href="slideshow.css">
+        <link rel="stylesheet" media="screen and (max-width: 800px)" href="mobile.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <meta name="twitter:card" content="summary">
         <meta property="og:url" content="https://ministate.net">
         <meta property="og:title" content="MiniState">
         <meta property="og:description" content="Welcome to MiniState. Compete with other nations in a massive, open world to build the greatest nation the world will ever know. Wage war, forge alliances, conquer lands, and advance your technology to make your mark in MiniState history.">
-        <meta property="og:image" content="https://ministate.net/Game_Icon.png">
+        <meta property="og:image" content="https://ministate.net/images/Game_Icon.png">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -49,25 +51,27 @@
         <meta name="theme-color" content="#dfd7be">
     </head>
     <body>
-        <header>
+        <header id="myHeader">
             <div class="header-container">
-                <img class="scroll left-scroll shadowed" src="bar-edge-left.png">
-                <img class="scroll right-scroll shadowed" src="bar-edge-right.png">
+                <img class="scroll left-scroll shadowed" src="images/bar-edge-left.png">
+                <img class="scroll right-scroll shadowed" src="images/bar-edge-right.png">
                 <div class="header-top">
                     <h1>MiniState</h1>
                 </div>
             </div>
+            <h2 class="header-under">Lead a nation in a massive, multiplayer world</h2>
         </header>
-        <div class="buttons-bar">
-            <a class="button" href="https://store.steampowered.com/app/842660/" onclick="tol('https://store.steampowered.com/app/842660/');">Steam</a>
-            <a class="button" href="https://ministate.wikia.com" onclick="tol('https://ministate.wikia.com')">Wiki</a>
-        </div>
         <div class="content">
             <div class="container content-panel">
-                <div class="social-panel mobile-only">
-                    <a href="https://www.facebook.com/MiniState-937386409781430/" onclick="tol('https://www.facebook.com/MiniState-937386409781430/?modal=admin_todo_tour')" class="button social-button"><img src="facebook-outline.png" class="facebook-icon"></a>
-                    <a href="https://twitter.com/mini_state?ref_src=twsrc%5Etfw" class="button social-button" onclick="tol('https://twitter.com/mini_state?ref_src=twsrc%5Etfw')"><img src="twitter-outline.svg" class="facebook-icon"></a>
-                    <a href="https://www.reddit.com/r/ministate" class="button social-button" onclick="tol('https://www.reddit.com/r/ministate')"><img src="reddit-outline.png" class="facebook-icon"></a>
+                <div class="button-panel mobile-only hide">
+                    <a class="button" href="https://store.steampowered.com/app/842660/" onclick="tol('https://store.steampowered.com/app/842660/');">Steam</a>
+                    <a class="button" href="https://ministate.wikia.com" onclick="tol('https://ministate.wikia.com')">Wiki</a>
+                </div>
+                <div class="button-panel mobile-only">
+                    <a href="https://www.facebook.com/MiniState-937386409781430/" onclick="tol('https://www.facebook.com/MiniState-937386409781430/?modal=admin_todo_tour')" class="button social-button"><img src="images/facebook-outline.png" class="social-icon"></a>
+                    <a href="https://twitter.com/mini_state?ref_src=twsrc%5Etfw" class="button social-button" onclick="tol('https://twitter.com/mini_state?ref_src=twsrc%5Etfw')"><img src="images/twitter-outline.svg" class="social-icon"></a>
+                    <a href="https://www.reddit.com/r/ministate" class="button social-button" onclick="tol('https://www.reddit.com/r/ministate')"><img src="images/reddit-outline.png" class="social-icon"></a>
+                    <a href="https://www.indiedb.com/games/ministate" class="button social-button" onclick="tol('https://www.indiedb.com/games/ministate')"><img src="images/indiedb-outline.png" class="social-icon"></a>
                 </div>
 
                 <div class="panel">
@@ -83,35 +87,64 @@
                         <li><strong>EMPIRE:</strong> Enslave other players and make them bow to your power.</li>
                         <li><strong>DESTROY:</strong> Grind your foes to dust, make them disappear from history.</li>
                     </ul>
-                    <p>Buy it on Steam here:</p>
+                    <p>Coming 2018.</p>
                 </div>
                 <div class="panel" id="screenshots">
                     <h2>Screenshots</h2>
-                    <div class="image-container">
-                        <div class="img-row">
-                            <img src="http://via.placeholder.com/700x300" class="image-fullwidth">
+                    <div class="slideshow-container">
+                        <!-- Full-width images with number and caption text -->
+                        <div class="slide fade">
+                            <div class="numbertext outlined">1 / 4</div>
+                            <img src="screenshots/Capture%20with%20UI.PNG">
+                            <div class="text outlined">Main game screen</div>
                         </div>
-                        <div class="img-row">
-                            <img src="http://via.placeholder.com/350x150" class="image-halfwidth float-left">
-                            <img src="http://via.placeholder.com/350x150" class="image-halfwidth float-right">
+
+                        <div class="slide fade">
+                            <div class="numbertext outlined">2 / 4</div>
+                            <img src="screenshots/Screenshot%203.PNG">
+                            <div class="text outlined">Gathering oil</div>
                         </div>
+
+                        <div class="slide fade">
+                            <div class="numbertext outlined">3 / 4</div>
+                            <img src="screenshots/World%20Map.png">
+                            <div class="text outlined">World map</div>
+                        </div>
+
+                        <div class="slide fade">
+                            <div class="numbertext outlined">4 / 4</div>
+                            <img src="screenshots/Unit.png">
+                            <div class="text outlined">Unit</div>
+                        </div>
+
+                        <!-- Next and previous buttons -->
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>
+                    <br />
+                    <div style="text-align:center">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                        <span class="dot" onclick="currentSlide(4)"></span>
                     </div>
                 </div>
             </div>
             <div class="sidebar">
-                <div class="social-panel">
-                    <a href="https://www.facebook.com/MiniState-937386409781430/" onclick="tol('https://www.facebook.com/MiniState-937386409781430/?modal=admin_todo_tour')" class="button social-button"><img src="facebook-outline.png" class="facebook-icon"></a>
-                    <a href="https://twitter.com/mini_state?ref_src=twsrc%5Etfw" class="button social-button" onclick="tol('https://twitter.com/mini_state?ref_src=twsrc%5Etfw')"><img src="twitter-outline.svg" class="facebook-icon"></a>
-                    <a href="https://www.reddit.com/r/ministate" class="button social-button" onclick="tol('https://www.reddit.com/r/ministate')"><img src="reddit-outline.png" class="facebook-icon"></a>
+                <div class="button-panel hide">
+                    <a class="button" href="https://store.steampowered.com/app/842660/" onclick="tol('https://store.steampowered.com/app/842660/');">Steam</a>
+                    <a class="button" href="https://ministate.wikia.com" onclick="tol('https://ministate.wikia.com')">Wiki</a>
+                </div>
+                <div class="button-panel">
+                    <a href="https://www.facebook.com/MiniState-937386409781430/" onclick="tol('https://www.facebook.com/MiniState-937386409781430/?modal=admin_todo_tour')" class="button social-button"><img src="images/facebook-outline.png" class="social-icon"></a>
+                    <a href="https://twitter.com/mini_state?ref_src=twsrc%5Etfw" class="button social-button" onclick="tol('https://twitter.com/mini_state?ref_src=twsrc%5Etfw')"><img src="images/twitter-outline.svg" class="social-icon"></a>
+                    <a href="https://www.reddit.com/r/ministate" class="button social-button" onclick="tol('https://www.reddit.com/r/ministate')"><img src="images/reddit-outline.png" class="social-icon"></a>
+                    <a href="https://www.indiedb.com/games/ministate" class="button social-button" onclick="tol('https://www.indiedb.com/games/ministate')"><img src="images/indiedb-outline.png" class="social-icon"></a>
                 </div>
                 <div class="panel">
-                    <h2>Discord Server</h2>
-                    <p>Become an alpha tester by applying through Discord!</p>
+                    <h2>Alpha Testing</h2>
+                    <p>Move early and become an alpha tester by applying through the Discord server. MiniState history will not forget your name.</p>
                     <iframe class="discord-widget" src="https://canary.discordapp.com/widget?id=442162168952258581&theme=dark" height="350" allowtransparency="true" frameborder="0"></iframe>
-                </div>
-                <div class="panel">
-                    <h2>MiniState on Indie DB</h2>
-                    <a href="https://www.indiedb.com/games/ministate" title="View MiniState on Indie DB" target="_blank" onclick="tol('https://www.indiedb.com/games/ministate')"><img src="https://button.indiedb.com/popularity/medium/games/67602.png" alt="MiniState" /></a>
                 </div>
                 <div class="panel">
                     <h2>Contact Us</h2>
@@ -124,5 +157,7 @@
                 Press Kit (coming soon!) | Copyright &copy; MiniState 2018 | Page released under MIT License, content released under CC BY-SA | <a href="https://github.com/ministate-game/ministate" onclick="tol('https://github.com/ministate-game/ministate')">View on GitHub</a>
             </div>
         </footer>
+        <script src="scripts.js"></script>
+        <script src="slideshow.js"></script>
     </body>
 </html>
