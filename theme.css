@@ -48,6 +48,19 @@ header {
     display: block;
     justify-content: center;
     margin: 1em auto;
+    padding-bottom: calc(100% - 1000px);
+    padding-top: 15%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 0;
+}
+
+.sticky + .content {
+    padding-top: 102px;
 }
 
 .header-container {
@@ -69,7 +82,7 @@ header {
 
 .scroll {
     position: absolute;
-    height: 150px;
+    height: 190px;
     top: -4px;
 }
 
@@ -86,10 +99,17 @@ h1 {
     position: relative;
     top: 4%;
     font-family: "BlackPearl", "IM Fell Double Pica", serif;
+    margin-bottom: 5px;
+    margin-top: 20px;
 }
 
 h2 {
     margin: 0 0 1em 0;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 30px;
 }
 
 .panel {
@@ -178,12 +198,14 @@ a.button:hover {
     display: block;
     flex: 100%;
     max-width: 100%;
+    width: 100%;
 }
 
 .image-halfwidth {
     display: block;
     flex: 50%;
     max-width: 50%;
+    width: 100%;
 }
 
 .float-left {

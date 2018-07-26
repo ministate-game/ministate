@@ -1,9 +1,10 @@
 h1 {
     font-size: 36px;
+    padding-bottom: 10px;
 }
 
 .scroll {
-    height: 110px;
+    height: 175px;
 }
 
 .header-top {
@@ -30,4 +31,8 @@ a.button  {
 
 .mobile-only {
     display: block;
+}
+
+h3 {
+    font-size: 15px;
 }
