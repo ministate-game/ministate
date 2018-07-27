@@ -87,7 +87,7 @@ header {
 
 .scroll {
     position: absolute;
-    height: 190px;
+    height: 150px;
     top: -4px;
 }
 
@@ -104,8 +104,6 @@ h1 {
     position: relative;
     top: 4%;
     font-family: "BlackPearl", "IM Fell Double Pica", serif;
-    margin-bottom: 5px;
-    margin-top: 20px;
 }
 
 h2 {
