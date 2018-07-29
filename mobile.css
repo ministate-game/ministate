@@ -43,3 +43,10 @@ a.button  {
 h3 {
     font-size: 15px;
 }
+
+.slide > img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+}
