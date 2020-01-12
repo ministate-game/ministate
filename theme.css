@@ -47,8 +47,9 @@ header {
     width: 100%;
     justify-content: center;
     margin: 1em auto;
-    padding-top: 15%;
-    padding-bottom: calc(100vh - 600px);
+    /* padding-top: 15%; */
+    padding-top: 5%;
+    /* padding-bottom: calc(100vh - 600px); */
 }
 
 .sticky {
